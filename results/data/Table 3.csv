@@ -1,0 +1,13 @@
+,,MAE_train,MAE_test,RMSE_train,RMSE_test,CVRMSE_train,CVRMSE_test
+Los Angeles,5-Parameter,3.01,4.97,4.08,6.38,5.25%,8.20%
+Los Angeles,Degree Hour,3.72,5.27,4.74,6.85,6.10%,8.80%
+Los Angeles,Decomposed,2.58,3.97,3.45,5.34,4.43%,6.86%
+Los Angeles,lightGBM,1.99,4.16,2.68,5.06,3.44%,6.50%
+Sacramento,5-Parameter,2.04,2.25,2.79,2.95,5.82%,6.16%
+Sacramento,Degree Hour,2.49,2.66,3.32,3.34,6.93%,6.97%
+Sacramento,Decomposed,2.28,3.43,2.99,4.26,6.24%,8.89%
+Sacramento,lightGBM,1.42,1.69,2.03,2.21,4.23%,4.60%
+New York,5-Parameter,14.78,17.36,20.26,22.57,4.66%,5.19%
+New York,Degree Hour,15.03,17.90,20.83,23.22,4.79%,5.34%
+New York,Decomposed,16.89,20.92,22.42,27.16,5.16%,6.25%
+New York,lightGBM,9.74,13.26,13.61,17.85,3.13%,4.10%

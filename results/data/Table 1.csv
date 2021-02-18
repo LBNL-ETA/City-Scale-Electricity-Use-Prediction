@@ -1,0 +1,7 @@
+,,Base Load,Heating Base Temp,Heating Slope,Cooling Base Temp,Cooling Slope,RMSE,R-squared
+Los Angeles,WD,71.63,13.58,-1.16,18.02,3.4,4.73,0.85
+Los Angeles,NWD,64.6,14.93,-0.73,18.32,3.15,4.65,0.82
+Sacramento,WD,42.74,13.43,-0.63,17.36,2.62,2.8,0.88
+Sacramento,NWD,39.45,13.9,-0.66,17.49,2.43,2.82,0.86
+New York,WD,376.73,17.88,-4.11,17.88,19.81,21.0,0.87
+New York,NWD,347.66,16.25,-4.61,18.01,17.86,20.76,0.84
