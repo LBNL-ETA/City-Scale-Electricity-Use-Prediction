@@ -1,4 +1,4 @@
-# City-Scale Electricity Use Analysis
+# City-Scale Electricity Use Prediction
 
 This is the official repository that implements the following paper:
 
@@ -18,12 +18,10 @@ We developed data-driven models to predict city-scale electricity consumption.
 
 # Code Usage
 ### Clone repository
-<!--
 ```
-git clone https://github.com/INFERLab/COHORT.git
+git clone https://github.com/LBNL-ETA/City-Scale-Electricity-Use-Prediction
 cd COHORT
 ```
--->
 
 ### Set up the environment 
 Set up the virtual environment with your preferred environment/package manager.
@@ -36,8 +34,11 @@ conda activate cityEleEnv
 
 ### Structure
 ``bin``: Runnable programs, including Python scripts and Jupyter Notebooks
+
 ``data``: Raw data, including city-level electricity consumption and weather data
+
 ``docs``: Manuscript submitted version
+
 ``results``: Cleaned-up data, generated figures and tables
 
 
