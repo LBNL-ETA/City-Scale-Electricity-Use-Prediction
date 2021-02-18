@@ -13,7 +13,7 @@ We developed data-driven models to predict city-scale electricity consumption.
 - We developed and compared four models: (1) five parameter change-point model, (2) Heating/Cooling Degree Hour model, (3) time series decomposed model implemented by Facebook Prophet, and (4) Gradient Boosting Machine implemented by Microsoft lightGBM.
 - We applied our models to explore how extreme weather events (e.g., heat waves) and unexpected public health events (e.g. COVID-19 pandemic) influenced each city’s electricity demand
 
-<img src="docs/overview.jpeg" data-canonical-src="docs/overview.jpeg" width="600" />
+<img src="docs/overview.jpeg" data-canonical-src="docs/overview.jpeg" width="1000" />
 
 
 # Code Usage
