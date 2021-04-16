@@ -2,7 +2,7 @@
 
 This is the official repository that implements the following paper:
 
-> *Zhe Wang, Han Li, Tianzhen Hong, Mary Ann Piette. 2021. Predicting City-Scale Daily Electricity Consumption Using Data-Driven Models. Submitted to Advance in Applied Energy*
+> *Wang, Z., Hong, T., Li, H. and Piette, M.A., 2021. Predicting City-Scale Daily Electricity Consumption Using Data-Driven Models. Advances in Applied Energy, p.100025.*
 
 [[paper_submitted]](docs/paper_submitted.pdf)[[paper_online]](https://doi.org/10.1016/j.adapen.2021.100025)
 
