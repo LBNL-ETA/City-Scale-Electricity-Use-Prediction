@@ -4,16 +4,14 @@ This is the official repository that implements the following paper:
 
 > *Zhe Wang, Han Li, Tianzhen Hong, Mary Ann Piette. 2021. Predicting City-Scale Daily Electricity Consumption Using Data-Driven Models. Submitted to Advance in Applied Energy*
 
-<!--
-[[slides]](docs/slides.pdf)[[paper]](https://dl.acm.org/doi/10.1145/3408308.3427980)
--->
+[[paper_submitted]](docs/paper_submitted.pdf)[[paper_online]](https://doi.org/10.1016/j.adapen.2021.100025)
 
 # Overview
 We developed data-driven models to predict city-scale electricity consumption.
-- We developed and compared four models: (1) five parameter change-point model, (2) Heating/Cooling Degree Hour model, (3) time series decomposed model implemented by Facebook Prophet, and (4) Gradient Boosting Machine implemented by Microsoft lightGBM.
+- We developed and compared four models: (1) five parameter change-point model, (2) Heating/Cooling Degree Hour model, (3) time series decomposed model implemented by Facebook Prophet, (4) Gradient Boosting Machine implemented by Microsoft lightGBM, and (5) three widely-used machine learning models (Random Forest, Support Vector Machine, Neural Network).
 - We applied our models to explore how extreme weather events (e.g., heat waves) and unexpected public health events (e.g. COVID-19 pandemic) influenced each city’s electricity demand
 
-<img src="docs/overview.jpeg" data-canonical-src="docs/overview.jpeg" width="1000" />
+<img src="docs/overview.jpeg" width="1000" />
 
 
 # Code Usage
@@ -57,23 +55,15 @@ Feel free to send any questions/feedback to: [Zhe Wang](mailto:zwang5@lbl.gov ) 
 
 If you use our code, please cite us as follows:
 
-<!--
 ```
-@inproceedings{Chen2020COHORT,
-author = {Chen, Bingqing and Francis, Jonathan and Pritoni, Marco and Kar, Soummya and Berg\'{e}s, Mario},
-title = {COHORT: Coordination of Heterogeneous Thermostatically Controlled Loads for Demand Flexibility},
-year = {2020},
-isbn = {9781450380614},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3408308.3427980},
-doi = {10.1145/3408308.3427980},
-booktitle = {Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
-pages = {31–40},
-numpages = {10},
-keywords = {demand response, smart thermostats, TCLs, distributed control},
-location = {Virtual Event, Japan},
-series = {BuildSys '20}
+Wang, Z., Hong, T., Li, H. and Piette, M.A., 2021. Predicting City-Scale Daily Electricity Consumption Using Data-Driven Models. Advances in Applied Energy, p.100025.
+
+@article{wang2021predicting,
+  title={Predicting City-Scale Daily Electricity Consumption Using Data-Driven Models},
+  author={Wang, Zhe and Hong, Tianzhen and Li, Han and Piette, Mary Ann},
+  journal={Advances in Applied Energy},
+  pages={100025},
+  year={2021},
+  publisher={Elsevier}
 }
 ```
--->
